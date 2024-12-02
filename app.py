@@ -7,5 +7,5 @@ def hello_world():
     return render_template("index.html", title="Hello")
 
 @app.route("/hello")
-def hello_world():
+def hello_world_str():
     return "hello world"
