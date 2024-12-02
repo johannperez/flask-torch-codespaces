@@ -9,3 +9,8 @@ def hello_world():
 @app.route("/hello")
 def hello_world_str():
     return "hello world"
+
+
+@app.route("/hello2")
+def hello_world_str2():
+    return "hello world2"
